@@ -26,6 +26,8 @@ class List{
   }
 
 public:
+  List() : _first(nullptr) {}
+
   bool empty(){
     return _first == nullptr;
   }
